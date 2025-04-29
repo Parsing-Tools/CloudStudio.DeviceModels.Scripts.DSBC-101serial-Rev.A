@@ -23,10 +23,7 @@ function getEndpoints(deviceAddress, endpoints)
   // En el código siguiente, se crean dos endpoints. El primero es un sensor de 
   // temperatura, mientras que el segundo es un sensor de dióxido de carbono.
 
-
      endpoints.addEndpoint("1", "SOS", endpointType.appliance);
-  // endpoints.addEndpoint("1", "Temperature sensor", endpointType.temperatureSensor);
-  // endpoints.addEndpoint("2", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
 }
 
 function validateDeviceAddress(address, result)
